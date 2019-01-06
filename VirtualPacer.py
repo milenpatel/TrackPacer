@@ -53,3 +53,5 @@ x= threading.Thread(target = beginPacing, name = 'thread1', args = (0,19,False,2
 y= threading.Thread(target = beginPacing, name = 'thread2', args = (0,14,False,2,Color(0,255,0)))
 x.start()
 y.start()
+#Try if getOutMode and i>10 time.sleep(1+10/totalSeconds)
+#Try get rid of popline and just do pixellist-1 so it iterates one less time
